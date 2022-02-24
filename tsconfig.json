@@ -1,0 +1,26 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "target": "es5",
+    "allowJs": false,
+    "sourceMap": false,
+    "outDir": "./lib",
+    "noImplicitReturns": false,
+    "checkJs": false,
+    "strict": true,
+    "noImplicitAny": false,
+    "noImplicitThis": false,
+    "strictNullChecks": false,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "downlevelIteration": true,
+    "experimentalDecorators": true,
+    "lib": ["es5", "es6", "es7", "esnext", "dom", "dom.iterable", "scripthost"],
+    "allowUnreachableCode": false,
+    "declaration": true
+  },
+  "include": [
+    "./src/**/*"
+  ],
+  "exclude": ["node_modules"]
+}
