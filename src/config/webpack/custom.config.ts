@@ -24,6 +24,7 @@ const initCustomConfig: ICustomConfig = {
   publicPath: '/',
   alias: {
     '@': resolveApp('src'),
+    '@xylib': resolveApp('src/.xylib'),
     '@src': resolveApp('src'),
     '@store': resolveApp('src/store'),
     '@components': resolveApp('src/components'),

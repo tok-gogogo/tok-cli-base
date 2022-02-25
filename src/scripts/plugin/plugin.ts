@@ -23,7 +23,7 @@ export default async () => {
     if (pluginObj.hasOwnProperty(key)) {
         installArray = pluginObj[key];
     }
-    let  choices = ['element', 'vue-table', 'vuex'];
+    let  choices = ['element', 'ant-design-vue', 'vux'];
     if(installArray.length>0){
         choices =choices.filter(val=>!installArray.includes(val))
         const sep = new inquirer.Separator();
