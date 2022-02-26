@@ -1,6 +1,6 @@
 {
   "name": "iwc-cli",
-  "version": "0.0.2",
+  "version": "0.0.6",
   "bin": {
     "iwcCli": "./lib/bin/cli.js"
   },
@@ -72,11 +72,11 @@
     "mockjs": "^1.1.0",
     "node-notifier": "^9.0.1",
     "ora": "^5.0.1",
-    "postcss": "^8.2.14",
+    "postcss": "^7.0.2",
     "postcss-flexbugs-fixes": "^5.0.2",
     "postcss-loader": "^5.2.0",
     "postcss-plugin-px2rem": "^0.8.1",
-    "postcss-preset-env": "^6.7.0",
+    "postcss-preset-env": "^7.4.1",
     "prettier": "^2.2.1",
     "react-refresh": "^0.10.0",
     "sass": "^1.32.12",
